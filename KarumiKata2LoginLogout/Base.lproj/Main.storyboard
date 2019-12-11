@@ -32,14 +32,22 @@
                                     <action selector="loginUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3YV-UE-mat"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="886-0U-Pj9">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="886-0U-Pj9">
                                 <rect key="frame" x="183" y="463" width="48" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Logout"/>
                                 <connections>
                                     <action selector="logout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJy-oQ-Ea4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbG-Ff-esn">
+                                <rect key="frame" x="78" y="525" width="282" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="gMh-Uw-lhE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -48,8 +56,12 @@
                             <constraint firstItem="QjI-dh-9qE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9kd-j3-brc"/>
                             <constraint firstItem="CXG-Fm-NAx" firstAttribute="top" secondItem="mkC-re-DtU" secondAttribute="bottom" constant="59" id="Etm-zM-Ept"/>
                             <constraint firstItem="mkC-re-DtU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="Iix-1d-jGD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QbG-Ff-esn" secondAttribute="bottom" constant="275" id="JUp-c7-STp"/>
+                            <constraint firstItem="QbG-Ff-esn" firstAttribute="top" secondItem="886-0U-Pj9" secondAttribute="bottom" constant="32" id="KdT-Lx-J2v"/>
+                            <constraint firstItem="QbG-Ff-esn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="Xkq-tc-jYd"/>
                             <constraint firstItem="mkC-re-DtU" firstAttribute="leading" secondItem="CXG-Fm-NAx" secondAttribute="leading" id="Yl8-Fr-vJf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mkC-re-DtU" secondAttribute="trailing" constant="29" id="le4-ca-H4O"/>
+                            <constraint firstItem="QbG-Ff-esn" firstAttribute="centerX" secondItem="CXG-Fm-NAx" secondAttribute="centerX" id="mOC-Tx-tEJ"/>
                             <constraint firstItem="mkC-re-DtU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="148" id="yHq-cF-WJ3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -58,6 +70,7 @@
                         <outlet property="btnLogOut" destination="886-0U-Pj9" id="gmg-EV-BBP"/>
                         <outlet property="btnLogin" destination="QjI-dh-9qE" id="aHn-yL-h2f"/>
                         <outlet property="lblPassword" destination="CXG-Fm-NAx" id="s3e-Q2-UUX"/>
+                        <outlet property="lblStatus" destination="QbG-Ff-esn" id="99S-TM-EDU"/>
                         <outlet property="lblUser" destination="mkC-re-DtU" id="9zR-Hn-MVF"/>
                     </connections>
                 </viewController>

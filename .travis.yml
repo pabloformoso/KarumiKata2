@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode11.2
+xcode_project: KarumiKata2LoginLogout.xcodeproj
+xcode_scheme: KarumiKata2LoginLogout
+xcode_sdk: iphonesimulator13.0
+script: xcodebuild -project KarumiKata2LoginLogout.xcodeproj -scheme KarumiKata2LoginLogout -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+notifications:
+ email: false
