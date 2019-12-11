@@ -14,6 +14,9 @@
 		2066442C23A131C600CB94F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2066442B23A131C600CB94F5 /* Assets.xcassets */; };
 		2066442F23A131C600CB94F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2066442D23A131C600CB94F5 /* LaunchScreen.storyboard */; };
 		2066443A23A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066443923A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift */; };
+		2066444623A139E100CB94F5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066444523A139E100CB94F5 /* LoginService.swift */; };
+		2066444723A139E100CB94F5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066444523A139E100CB94F5 /* LoginService.swift */; };
+		2066444923A13B3200CB94F5 /* LoginServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066444823A13B3200CB94F5 /* LoginServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 		2066443523A131C600CB94F5 /* KarumiKata2LoginLogoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarumiKata2LoginLogoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2066443923A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarumiKata2LoginLogoutTests.swift; sourceTree = "<group>"; };
 		2066443B23A131C600CB94F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2066444523A139E100CB94F5 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		2066444823A13B3200CB94F5 /* LoginServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		2066442123A131C500CB94F5 /* KarumiKata2LoginLogout */ = {
 			isa = PBXGroup;
 			children = (
+				2066444423A139CB00CB94F5 /* Services */,
 				2066442223A131C500CB94F5 /* AppDelegate.swift */,
 				2066442423A131C500CB94F5 /* SceneDelegate.swift */,
 				2066442623A131C500CB94F5 /* ViewController.swift */,
@@ -95,8 +101,17 @@
 			children = (
 				2066443923A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift */,
 				2066443B23A131C600CB94F5 /* Info.plist */,
+				2066444823A13B3200CB94F5 /* LoginServiceTests.swift */,
 			);
 			path = KarumiKata2LoginLogoutTests;
+			sourceTree = "<group>";
+		};
+		2066444423A139CB00CB94F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2066444523A139E100CB94F5 /* LoginService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +218,7 @@
 				2066442723A131C500CB94F5 /* ViewController.swift in Sources */,
 				2066442323A131C500CB94F5 /* AppDelegate.swift in Sources */,
 				2066442523A131C500CB94F5 /* SceneDelegate.swift in Sources */,
+				2066444623A139E100CB94F5 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2066444923A13B3200CB94F5 /* LoginServiceTests.swift in Sources */,
 				2066443A23A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift in Sources */,
+				2066444723A139E100CB94F5 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
