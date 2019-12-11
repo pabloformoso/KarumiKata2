@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2066442323A131C500CB94F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066442223A131C500CB94F5 /* AppDelegate.swift */; };
+		2066442523A131C500CB94F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066442423A131C500CB94F5 /* SceneDelegate.swift */; };
+		2066442723A131C500CB94F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066442623A131C500CB94F5 /* ViewController.swift */; };
+		2066442A23A131C500CB94F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2066442823A131C500CB94F5 /* Main.storyboard */; };
+		2066442C23A131C600CB94F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2066442B23A131C600CB94F5 /* Assets.xcassets */; };
+		2066442F23A131C600CB94F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2066442D23A131C600CB94F5 /* LaunchScreen.storyboard */; };
+		2066443A23A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066443923A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2066443623A131C600CB94F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2066441723A131C500CB94F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2066441E23A131C500CB94F5;
+			remoteInfo = KarumiKata2LoginLogout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2066441F23A131C500CB94F5 /* KarumiKata2LoginLogout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarumiKata2LoginLogout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2066442223A131C500CB94F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2066442423A131C500CB94F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2066442623A131C500CB94F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2066442923A131C500CB94F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2066442B23A131C600CB94F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2066442E23A131C600CB94F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2066443023A131C600CB94F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2066443523A131C600CB94F5 /* KarumiKata2LoginLogoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarumiKata2LoginLogoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2066443923A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarumiKata2LoginLogoutTests.swift; sourceTree = "<group>"; };
+		2066443B23A131C600CB94F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2066441C23A131C500CB94F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2066443223A131C600CB94F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2066441623A131C500CB94F5 = {
+			isa = PBXGroup;
+			children = (
+				2066442123A131C500CB94F5 /* KarumiKata2LoginLogout */,
+				2066443823A131C600CB94F5 /* KarumiKata2LoginLogoutTests */,
+				2066442023A131C500CB94F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2066442023A131C500CB94F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2066441F23A131C500CB94F5 /* KarumiKata2LoginLogout.app */,
+				2066443523A131C600CB94F5 /* KarumiKata2LoginLogoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2066442123A131C500CB94F5 /* KarumiKata2LoginLogout */ = {
+			isa = PBXGroup;
+			children = (
+				2066442223A131C500CB94F5 /* AppDelegate.swift */,
+				2066442423A131C500CB94F5 /* SceneDelegate.swift */,
+				2066442623A131C500CB94F5 /* ViewController.swift */,
+				2066442823A131C500CB94F5 /* Main.storyboard */,
+				2066442B23A131C600CB94F5 /* Assets.xcassets */,
+				2066442D23A131C600CB94F5 /* LaunchScreen.storyboard */,
+				2066443023A131C600CB94F5 /* Info.plist */,
+			);
+			path = KarumiKata2LoginLogout;
+			sourceTree = "<group>";
+		};
+		2066443823A131C600CB94F5 /* KarumiKata2LoginLogoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				2066443923A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift */,
+				2066443B23A131C600CB94F5 /* Info.plist */,
+			);
+			path = KarumiKata2LoginLogoutTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2066441E23A131C500CB94F5 /* KarumiKata2LoginLogout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2066443E23A131C600CB94F5 /* Build configuration list for PBXNativeTarget "KarumiKata2LoginLogout" */;
+			buildPhases = (
+				2066441B23A131C500CB94F5 /* Sources */,
+				2066441C23A131C500CB94F5 /* Frameworks */,
+				2066441D23A131C500CB94F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarumiKata2LoginLogout;
+			productName = KarumiKata2LoginLogout;
+			productReference = 2066441F23A131C500CB94F5 /* KarumiKata2LoginLogout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2066443423A131C600CB94F5 /* KarumiKata2LoginLogoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2066444123A131C600CB94F5 /* Build configuration list for PBXNativeTarget "KarumiKata2LoginLogoutTests" */;
+			buildPhases = (
+				2066443123A131C600CB94F5 /* Sources */,
+				2066443223A131C600CB94F5 /* Frameworks */,
+				2066443323A131C600CB94F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2066443723A131C600CB94F5 /* PBXTargetDependency */,
+			);
+			name = KarumiKata2LoginLogoutTests;
+			productName = KarumiKata2LoginLogoutTests;
+			productReference = 2066443523A131C600CB94F5 /* KarumiKata2LoginLogoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2066441723A131C500CB94F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = FormoSil;
+				TargetAttributes = {
+					2066441E23A131C500CB94F5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					2066443423A131C600CB94F5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2066441E23A131C500CB94F5;
+					};
+				};
+			};
+			buildConfigurationList = 2066441A23A131C500CB94F5 /* Build configuration list for PBXProject "KarumiKata2LoginLogout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2066441623A131C500CB94F5;
+			productRefGroup = 2066442023A131C500CB94F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2066441E23A131C500CB94F5 /* KarumiKata2LoginLogout */,
+				2066443423A131C600CB94F5 /* KarumiKata2LoginLogoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2066441D23A131C500CB94F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2066442F23A131C600CB94F5 /* LaunchScreen.storyboard in Resources */,
+				2066442C23A131C600CB94F5 /* Assets.xcassets in Resources */,
+				2066442A23A131C500CB94F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2066443323A131C600CB94F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2066441B23A131C500CB94F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2066442723A131C500CB94F5 /* ViewController.swift in Sources */,
+				2066442323A131C500CB94F5 /* AppDelegate.swift in Sources */,
+				2066442523A131C500CB94F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2066443123A131C600CB94F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2066443A23A131C600CB94F5 /* KarumiKata2LoginLogoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2066443723A131C600CB94F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2066441E23A131C500CB94F5 /* KarumiKata2LoginLogout */;
+			targetProxy = 2066443623A131C600CB94F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2066442823A131C500CB94F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2066442923A131C500CB94F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2066442D23A131C600CB94F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2066442E23A131C600CB94F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2066443C23A131C600CB94F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2066443D23A131C600CB94F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2066443F23A131C600CB94F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M82QY44WW;
+				INFOPLIST_FILE = KarumiKata2LoginLogout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = formosil.KarumiKata2LoginLogout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2066444023A131C600CB94F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M82QY44WW;
+				INFOPLIST_FILE = KarumiKata2LoginLogout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = formosil.KarumiKata2LoginLogout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2066444223A131C600CB94F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M82QY44WW;
+				INFOPLIST_FILE = KarumiKata2LoginLogoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = formosil.KarumiKata2LoginLogoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarumiKata2LoginLogout.app/KarumiKata2LoginLogout";
+			};
+			name = Debug;
+		};
+		2066444323A131C600CB94F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M82QY44WW;
+				INFOPLIST_FILE = KarumiKata2LoginLogoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = formosil.KarumiKata2LoginLogoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarumiKata2LoginLogout.app/KarumiKata2LoginLogout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2066441A23A131C500CB94F5 /* Build configuration list for PBXProject "KarumiKata2LoginLogout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2066443C23A131C600CB94F5 /* Debug */,
+				2066443D23A131C600CB94F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2066443E23A131C600CB94F5 /* Build configuration list for PBXNativeTarget "KarumiKata2LoginLogout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2066443F23A131C600CB94F5 /* Debug */,
+				2066444023A131C600CB94F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2066444123A131C600CB94F5 /* Build configuration list for PBXNativeTarget "KarumiKata2LoginLogoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2066444223A131C600CB94F5 /* Debug */,
+				2066444323A131C600CB94F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2066441723A131C500CB94F5 /* Project object */;
+}
